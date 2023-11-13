@@ -1,0 +1,39 @@
+/* styles.css */
+
+/* Styling the navigation bar */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+  }  
+  li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display:list-item;
+    
+  }
+  
+  li a:hover {
+    background-color: #555;
+  }
+  
+  /* Styling the header */
+  h1 {
+    text-align: center;
+    text-wrap: pretty;
+    font-style:initial;
+    color: rgb(86, 30, 77);
+
+  }
+  
+  /* Add additional styles for your components as needed */
+  

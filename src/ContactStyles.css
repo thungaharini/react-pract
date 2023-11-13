@@ -1,0 +1,36 @@
+/* ContactStyles.css */
+.contacts {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    background-color: aliceblue;
+  }
+  .h4{    
+    justify-content: center;
+    text-align:center;
+  }
+  
+  .contacts li {
+    display: inline; /* Set the list items to inline */
+   /* Add some margin to separate the links */
+    flex-direction: column;
+  }
+  
+  .contacts a {
+    text-decoration:none;
+    color: #0074d9; /* Blue color for links */
+    flex-direction: column-reverse;
+  }
+  
+  .contacts a:hover {
+    color: #ff4136; /* Red color for links on hover */
+  }
+  
+  .contacts h1 {
+    font-size: 24px;
+    color: #302c2c;
+    flex-direction: column;
+  }
+  
